@@ -1,3 +1,5 @@
+package dataStructure.queue;
+
 import java.util.Scanner;
 
 class Node{
@@ -76,7 +78,7 @@ class NodeList {
         // 매번 size 부를 때마다 O(n) 의 시간 걸리는데
         // while루프 안에서 부르니까 총 O(n^2)의 시간 복잡도
 //        int cnt = 0;
-//        Node temp = front;
+//        dataStructure.queue.Node temp = front;
 //        while (temp != null){
 //            cnt++;
 //            temp=temp.getNext();
@@ -99,7 +101,7 @@ class NodeList {
 public class Q2164 {
     public static void main(String[] args) {
         // 큐 인터페이스
-        // Queue<Integer>queue = new LinkedList<Integer>();
+        // Queue<Integer>dataStructure.queue = new LinkedList<Integer>();
         // LinkedList를 이용해서 Queue 구현
         // 값 입력
         Scanner sc = new Scanner(System.in);
